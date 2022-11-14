@@ -36,8 +36,6 @@ class MNCTransactions {
 	public static void main(String[] args) {
 
 		MNCTransactions tree = new MNCTransactions();
-		//Node uc=new Node();
-		//UtilityClass uc=new UtilityClass();
 		tree.node = new Node(50);
 		tree.node.left = new Node(30);
 		tree.node.right = new Node(60);
